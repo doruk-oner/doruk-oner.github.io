@@ -1,0 +1,52 @@
+#-------------------------------
+# General Site Settings
+title: Doruk Oner
+# logo: logo.svg # You can add own logo.
+description: My Personal Website
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: Doruk 0ner
+  image: cover.jpeg
+  say-hello: Hello, I’m <strong>Doruk Oner</strong>
+  bio:  I am a PhD candidate at <a href="https://www.epfl.ch/labs/cvlab/">CVLab</a>, EPFL, working under supervision of Prof. Pascal Fua. 
+        I am interested in <strong>Computer Vision</strong> and <strong>Machine Learning</strong>.
+        My research focus is <strong>Topologically-Better Delineation of Curvilinear Structures</strong> such as <strong>Roads</strong> in sattelite imagery and <strong>Neurons</strong> in microscopy scans.
+        My research interests also include usage of <strong>Persistent Homology</strong> in Machine Learning.
+        <br><br> 
+        Before my PhD, I obtained my Bachelor's Degree from Bilkent University where I worked on <strong>Multi-Arm Bandit Problems</strong> under supervision of Assoc. Prof. Cem Tekin.
+
+
+
+
+#-------------------------------
+# Contact links
+# twitter: https://twitter.com/ # Add your Twitter handle
+# facebook: https://facebook.com/ # Add your Facebook handle
+github: https://github.com/doruk-oner/
+linkedin: https://www.linkedin.com/in/doruk-öner-025805ab/
+scholar: https://scholar.google.com.tr/citations?user=ESA2CsAAAAAJ&hl=en/
+email: mailto:doruk.oner@epfl.ch
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile:  # Add instagram username
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
