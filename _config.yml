@@ -28,7 +28,7 @@ include:
 collections:
   projects:
     output: true
-    permalink: /:collection/:path/
+    permalink: /projects/:path/
 
 # Tags
 tag_page_dir:         tag
