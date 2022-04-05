@@ -219,3 +219,25 @@ input[type="checkbox"] {
   background-position: -39px 0;
 }
 
+.square-box{
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+.square-box:before{
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+.square-content{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(https://images.pexels.com/photos/1249588/pexels-photo-1249588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+}
+
