@@ -21,17 +21,12 @@ defaults:
   - scope:
       path: '_pages'
     values:
-      permalink: /:basename:output_ext
-  
-#   - scope:
-#       path: '_projects'
-#     values:
-#       permalink: /projects/:title:output_ext
+      permalink: /:title:output_ext
       
 collections:
   projects:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:path
 
 # Tags
 tag_page_dir:         tag
