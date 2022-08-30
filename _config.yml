@@ -20,15 +20,20 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+  
+  - scope:
+      path: '_projects'
+    values:
+      permalink: /projects/:als
 
 include:
   - _pages
   - _projects
 
-collections:
-  projects:
-    output: true
-    permalink: /projects/:path/
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:path/
 
 # Tags
 tag_page_dir:         tag
