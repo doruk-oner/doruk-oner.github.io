@@ -6,7 +6,7 @@
     <div class="article__wrapper" style="height:368px; margin-top:2em;">
 
         {% if page.image %}
-          <a href="{{ site.baseurl }}/projects/{{ page.als }}" style="height:80%"><img src="{{site.baseurl}}/images/{{page.image}}" style="height:100%"/></a>
+          <a href="{{ site.baseurl }}/projects/{{ page.name }}" style="height:80%"><img src="{{site.baseurl}}/images/{{page.image}}" style="height:100%"/></a>
         {% else %}
           {% assign without-image = 'article-without-image' %}
         {% endif %}
@@ -24,7 +24,7 @@
           </div>
       
           <h2 class="article__title">
-            <a href="{{ site.baseurl }}/projects/{{ page.als }}"> {{page.title}} </a>
+            <a href="{{ site.baseurl }}/projects/:title"> {{page.title}} </a>
           </h2>
       
           <small>{{ page.authors }}</small>
