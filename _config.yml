@@ -24,7 +24,7 @@ defaults:
   - scope:
       path: '_projects'
     values:
-      permalink: /projects/:als
+      permalink: /projects/:title.html
 
 include:
   - _pages
