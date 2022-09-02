@@ -13,9 +13,10 @@ layout: default
 <div class="container">
     <div class="row">
         {% if site.projects.size > 0 %}
-        {% for page in site.projects %}
-        {% include cvlab-content.html %}
-        {% endfor %}
+            {% assign sorted_page = site.projects | sort: "date" %}
+            {% for page in sorted_page reversed %}
+                {% include cvlab-content.html %}
+            {% endfor %}
         {% endif %}
     </div>
 </div>

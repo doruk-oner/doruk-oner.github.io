@@ -1,39 +1,21 @@
 #-------------------------------
 # General Site Settings
-title: Doruk Oner
+title: CVLAB Publications
 # logo: logo.svg # You can add own logo.
-description: My Personal Website
+description: CVLAB Publications
 
 
 #-------------------------------
 # Author Settings
 author:
-  name: Doruk 0ner
-  image: cover.jpeg
-  say-hello: Hello, I’m <strong>Doruk Oner</strong>
-  bio:  I am a PhD candidate at <a href="https://www.epfl.ch/labs/cvlab/">CVLab</a>, EPFL, working under supervision of Prof. Pascal Fua. 
-        I am interested in <strong>Computer Vision</strong> and <strong>Machine Learning</strong>.
-        My research focus is <strong>Topologically-Better Delineation of Curvilinear Structures</strong> such as <strong>Roads</strong> in sattelite imagery and <strong>Neurons</strong> in microscopy scans.
-        My research interests also include usage of <strong>Persistent Homology</strong> in Machine Learning.
-        <br><br> 
-        Before my PhD, I obtained my Bachelor's Degree from Bilkent University where I worked on <strong>Multi-Arm Bandit Problems</strong> under supervision of Assoc. Prof. Cem Tekin.
-
-
-
-
-#-------------------------------
-# Contact links
-# twitter: https://twitter.com/ # Add your Twitter handle
-# facebook: https://facebook.com/ # Add your Facebook handle
-github: https://github.com/doruk-oner/
-linkedin: https://www.linkedin.com/in/doruk-öner-025805ab/
-scholar: https://scholar.google.com.tr/citations?user=ESA2CsAAAAAJ&hl=en/
-email: mailto:doruk.oner@epfl.ch
-
+  name: CVLAB
+  image: 
+  say-hello:
+  bio: 
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: # add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------

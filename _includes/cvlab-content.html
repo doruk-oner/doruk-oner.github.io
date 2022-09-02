@@ -3,20 +3,17 @@
 <div class="article" style="width:100%;margin:100 auto">
   <div class="container">
 
-    <div class="article__wrapper" style="height:368px; margin-top:2em;">
+    <div class="article__wrapper">
 
-        {% if page.image %}
-          <a href="{{ site.baseurl }}/projects/{{ page.als }}" style="height:80%"><img src="{{site.baseurl}}/images/{{page.image}}" style="height:100%"/></a>
-        {% else %}
-          {% assign without-image = 'article-without-image' %}
-        {% endif %}
+        <!-- <a href="{{ site.baseurl }}{{ page.url }}"><img class="image" src="{{ site.baseurl }}{{ page.path | remove: 'index.html'}}images/cover.png"/></a> -->
+        <a href="{{ site.baseurl }}{{ page.url }}" class="article__image" style="background-image: url({{ site.baseurl }}{{ page.url | remove: 'index'}}images/cover.png)"></a>
 
-        <div class="article__content {{ without-image }}" style="width:100%; margin-left: 20px;">
+        <div class="article__content {{ without-image }}">
           <div class="article-tags">
           {% if page.tags.size >= 1 %}
             <div class="article-tags__box">
               {% for tag in page.tags %}
-                <a href="{{ site.baseurl }}/tag/{{ tag }}" class="article__tag">{{ tag }},</a>
+                <a href="{{ site.baseurl }}/tag/{{ tag }}" class="article__tag">{{ tag }} </a>
               {% endfor %}
             </div>
           {% else %}
@@ -24,11 +21,12 @@
           </div>
       
           <h2 class="article__title">
-            <a href="{{ site.baseurl }}{{ page.url }}"> {{page.title}} </a>
+            <a href="{{ site.baseurl }}{{ page.url }}"> {{ page.title }}</a>
           </h2>
       
           <small>{{ page.authors }}</small>
           <br>
+
           <p style="color:gray;"><small>{{ page.conference }}</small></p>
           
           <div class="article__footer">
