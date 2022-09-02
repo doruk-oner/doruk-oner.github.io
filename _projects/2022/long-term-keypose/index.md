@@ -10,10 +10,6 @@ paperpdf: ""
 paperarxiv: "https://arxiv.org/pdf/"
 papercode: "https://github.com/"
 paperpage: "https://github.com/"
-output:
-  html_document:
-  css: ./main.scss
-  self_contained: no
 ---
 
 <h1 style="text-align: center;"> Long Term Motion Prediction Using Keyposes </h1>
